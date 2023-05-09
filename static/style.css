@@ -1,0 +1,59 @@
+.Cupcake-img {
+    max-width: 200px;
+    max-height: 200px;
+  }
+
+  h1 {
+    margin: 50px;
+    text-align: center;
+    font-size: 60px;
+    text-decoration: underline;
+  }
+
+  h2 {
+    text-align: center;
+    padding: 8px;
+    font-size: 35px;
+  }
+  
+  form {
+    margin: 0 auto;
+    text-align: center;
+    }
+
+    label {
+        position: absolute;
+        left: 31%;
+        font-size: 20px;
+    }
+    
+    input {
+        right: 5%;
+        width: 380px;
+    }
+    
+
+  button {
+    padding: 10px 10px;
+    font-size: 20px;
+    font-style: oblique;
+    border-radius: 10px;
+    margin: 40px auto;
+    background-color: #b42289;
+    color: rgb(255, 255, 255);
+    display: block;
+  }
+
+  body{
+    background-color: rgb(216, 216, 216);
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  button:hover {
+    cursor:pointer ;
+    background-color: #115ba2;
+    font-size: 1.4rem;
+  }
